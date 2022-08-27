@@ -1,13 +1,15 @@
-import React from "react";
+import Container from "../components/Container";
 import Hedaer from "../components/Hedaer";
 
 const Home = () => {
   return (
     <>
       <Hedaer />
-      <div>
-        <h1>Home</h1>
-      </div>
+      <section className="container">
+        <article className="main-container">
+          <Container />
+        </article>
+      </section>
     </>
   );
 };

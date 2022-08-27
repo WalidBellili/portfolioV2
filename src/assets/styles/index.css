@@ -7,29 +7,6 @@ body {
   width: 100%;
   background: whitesmoke;
 }
-body:before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0%;
-  left: 0%;
-  background: black;
-  -webkit-animation: animationBefore 1.4s ease forwards;
-          animation: animationBefore 1.4s ease forwards;
-  -webkit-animation-delay: 0.33s;
-          animation-delay: 0.33s;
-}
-@-webkit-keyframes animationBefore {
-  to {
-    opacity: 0;
-  }
-}
-@keyframes animationBefore {
-  to {
-    opacity: 0;
-  }
-}
 
 header {
   height: 70px;
@@ -52,4 +29,22 @@ header nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .main-container {
+  height: 100%;
+  width: 85%;
+  border-bottom: 2px solid gray;
+  border-left: 2px solid grey;
+  border-right: 2px solid grey;
+}
+.container .main-container article {
+  background: #000;
 }/*# sourceMappingURL=index.css.map */
