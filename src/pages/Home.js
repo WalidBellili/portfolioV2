@@ -6,9 +6,7 @@ const Home = () => {
     <>
       <Hedaer />
       <section className="container">
-        <article className="main-container">
-          <Container />
-        </article>
+        <Container />
       </section>
     </>
   );
