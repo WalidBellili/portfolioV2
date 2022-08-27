@@ -41,10 +41,35 @@ header nav ul {
 .container .main-container {
   height: 100%;
   width: 85%;
+  background: red;
   border-bottom: 2px solid gray;
   border-left: 2px solid grey;
   border-right: 2px solid grey;
 }
-.container .main-container article {
-  background: #000;
+.container .main-container .both-div-container {
+  display: flex;
+  height: 100%;
+}
+.container .main-container .both-div-container .first-div-container {
+  background: rgb(235, 228, 228);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .main-container .both-div-container .first-div-container h2 {
+  font-weight: bold;
+  font-size: 80px;
+  color: aqua;
+}
+.container .main-container .both-div-container .first-div-container p {
+  color: red;
+  font-size: 40px;
+}
+.container .main-container .both-div-container .second-div-container {
+  background: rgb(242, 234, 234);
+  width: 50%;
+  height: 100%;
 }/*# sourceMappingURL=index.css.map */
