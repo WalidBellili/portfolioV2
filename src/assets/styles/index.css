@@ -1,1 +1,32 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: whitesmoke;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background: rgba(254, 211, 211, 0.353);
+  border-bottom: 2px solid grey;
+}
+header nav {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav h2 {
+  margin-left: 50px;
+}
+header nav ul {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */
