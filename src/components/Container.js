@@ -6,7 +6,8 @@ const Container = () => {
         <p>Web Developer Full stack Junior</p>
       </div>
       <div className="second-div-container">
-        <p>dfsv</p>
+        <p>szfdzfrgergerg regheqhehthqhqe</p>
+        <img src={require("../assets/img/walidbellili.jpg")} alt="" />
       </div>
     </div>
   );
