@@ -1,15 +1,18 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const SecondContainer = () => {
   return (
     <article className="card-container">
       <div className="flex">
-        <img src={require("../assets/img/ScreenCatalogue.jpg")} alt="" />
-        <img src={require("../assets/img/pokemonscreen.jpg")} alt="" />{" "}
-        <img src={require("../assets/img/walidbellili.jpg")} alt="" />{" "}
-        <img src={require("../assets/img/walidbellili.jpg")} alt="" />{" "}
-        <img src={require("../assets/img/walidbellili.jpg")} alt="" />{" "}
-        <img src={require("../assets/img/walidbellili.jpg")} alt="" />{" "}
+        <Link to={""}>
+          <img src={require("../assets/img/ScreenCatalogue.jpg")} alt="" />
+        </Link>
+        <Link to={""}>
+          <img src={require("../assets/img/pokemonscreen.jpg")} alt="" />{" "}
+        </Link>
+        <Link to={""}>
+          <img src={require("../assets/img/got.jpg")} alt="" />
+        </Link>
       </div>
     </article>
   );

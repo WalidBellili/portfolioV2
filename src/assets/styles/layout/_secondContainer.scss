@@ -21,13 +21,12 @@
       align-items: center;
       justify-content: center;
       gap: 2%;
-    }
-
-    img {
-      width: 120px;
-      height: 180px;
-      border-radius: 4%;
-      margin: 3%;
+      img {
+        object-fit: contain;
+        height: 180px;
+        border-radius: 4%;
+        margin: 3%;
+      }
     }
   }
 }

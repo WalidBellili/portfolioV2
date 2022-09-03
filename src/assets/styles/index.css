@@ -82,8 +82,9 @@ header nav ul {
   justify-content: center;
   gap: 2%;
 }
-.second-container .card-container img {
-  width: 120px;
+.second-container .card-container .flex img {
+  -o-object-fit: contain;
+     object-fit: contain;
   height: 180px;
   border-radius: 4%;
   margin: 3%;
