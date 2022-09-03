@@ -37,23 +37,23 @@ header nav ul {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: green;
+  background: whitesmoke;
 }
 .parent-container .first-block {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: red;
-  width: 50%;
+  flex-direction: column;
+  text-align: center;
+  background: rgb(243, 243, 243);
+  width: 95%;
   height: 90vh;
 }
-.parent-container .second-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 90vh;
-  width: 50%;
-  background: blue;
+.parent-container .first-block h1 {
+  font-size: 50px;
+}
+.parent-container .first-block p {
+  font-size: 35px;
 }
 
 .second-container {
@@ -65,7 +65,7 @@ header nav ul {
   justify-content: center;
 }
 .second-container .card-container {
-  background: green;
+  background: rgb(35, 32, 32);
   width: 95%;
   height: 90vh;
   border-radius: 2%;
@@ -86,4 +86,41 @@ header nav ul {
   height: 180px;
   border-radius: 4%;
   margin: 3%;
+}
+
+.third-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid rgb(35, 32, 32);
+}
+.third-container .contact {
+  width: 95%;
+  height: 100%;
+  border-radius: 4%;
+  background: whitesmoke;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.third-container .contact .link {
+  background: red;
+  height: 80%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.third-container .contact .link ul {
+  display: flex;
+  flex-direction: column;
+}
+.third-container .contact .link img {
+  width: 180px;
+  height: 220px;
 }/*# sourceMappingURL=index.css.map */

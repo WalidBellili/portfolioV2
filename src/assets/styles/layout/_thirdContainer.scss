@@ -1,0 +1,38 @@
+.third-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid rgb(35, 32, 32);
+  .contact {
+    width: 95%;
+    height: 100%;
+    border-radius: 4%;
+    background: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .link {
+      background: red;
+      height: 80%;
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+      }
+      img {
+        width: 180px;
+        height: 220px;
+      }
+    }
+  }
+}
