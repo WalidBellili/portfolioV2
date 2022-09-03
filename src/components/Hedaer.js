@@ -11,7 +11,8 @@ const Hedaer = () => {
         </ul>
       </nav>
     </header>
-  );
+    
+  )
 };
 
 export default Hedaer;
