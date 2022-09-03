@@ -10,7 +10,7 @@ const Contact = () => {
           <Link to={"https://www.linkedin.com/in/walidbellili/"}>LINKEDIN</Link>
           <li>walid.07@hotmail.fr</li>
         </ul>
-        <img src={require("../assets/img/walidbellili.jpg")} alt="" />{" "}
+        <img src={require("../assets/img/walidbellili.jpg")} alt="" />
       </article>
     </div>
   );

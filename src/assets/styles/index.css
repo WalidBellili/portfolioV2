@@ -17,19 +17,20 @@ header {
 }
 header nav {
   height: 100%;
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 header nav h2 {
   margin-left: 9%;
 }
 header nav ul {
-  width: 50%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 5%;
 }
 
 .parent-container {
@@ -37,23 +38,29 @@ header nav ul {
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 100vh;
   background: whitesmoke;
 }
-.parent-container .first-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  background: rgb(243, 243, 243);
+.parent-container .info-container {
+  background: green;
   width: 95%;
-  height: 90vh;
 }
-.parent-container .first-block h1 {
-  font-size: 50px;
+.parent-container .info-container .first-block {
+  background: red;
+  text-align: center;
 }
-.parent-container .first-block p {
-  font-size: 35px;
+.parent-container .info-container .first-block h1 {
+  font-size: 38px;
+}
+.parent-container .info-container .first-block .first-paragraphe {
+  font-size: 27px;
+}
+.parent-container .info-container .first-inner-block {
+  background: blue;
+}
+.parent-container .info-container .formation-card {
+  background: yellow;
+  text-align: center;
 }
 
 .second-container {
