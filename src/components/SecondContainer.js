@@ -4,8 +4,8 @@ const SecondContainer = () => {
   return (
     <article className="card-container">
       <div className="flex">
-        <img src={require("../assets/img/walidbellili.jpg")} alt="" />{" "}
-        <img src={require("../assets/img/walidbellili.jpg")} alt="" />{" "}
+        <img src={require("../assets/img/ScreenCatalogue.jpg")} alt="" />
+        <img src={require("../assets/img/pokemonscreen.jpg")} alt="" />{" "}
         <img src={require("../assets/img/walidbellili.jpg")} alt="" />{" "}
         <img src={require("../assets/img/walidbellili.jpg")} alt="" />{" "}
         <img src={require("../assets/img/walidbellili.jpg")} alt="" />{" "}

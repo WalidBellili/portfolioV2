@@ -7,24 +7,19 @@
   background: whitesmoke;
 
   .info-container {
-    background: green;
     width: 95%;
 
     .first-block {
-      background: red;
       text-align: center;
       h1 {
         font-size: 38px;
       }
-      .first-paragraphe {
+      p {
         font-size: 27px;
       }
     }
-    .first-inner-block {
-      background: blue;
-    }
+
     .formation-card {
-      background: yellow;
       text-align: center;
     }
   }

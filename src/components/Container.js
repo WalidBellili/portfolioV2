@@ -28,10 +28,6 @@ const Container = () => {
             Coté Back : J'ai apris à concevoir des API Rest, à faire des CRUD
             avec NodeJs. J'ai également des notions de base de donnée SQL.
           </p>
-          <p>
-            Etant quelqu'un d'autant passioné que curieux,je suis ouvert à
-            continuer mon apprentissage en entreprise sur d'autres langages.
-          </p>
         </div>
       </div>
     </>

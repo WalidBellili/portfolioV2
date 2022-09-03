@@ -4,12 +4,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 3px solid rgb(35, 32, 32);
+
+  background: whitesmoke;
   .contact {
     width: 95%;
     height: 100%;
     border-radius: 4%;
-    background: whitesmoke;
+    background: rgb(35, 32, 32);
+    color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -17,13 +19,14 @@
     justify-content: center;
 
     .link {
-      background: red;
+      background: whitesmoke;
       height: 80%;
       width: 75%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
+      border-radius: 3%;
 
       ul {
         display: flex;
@@ -32,6 +35,7 @@
       img {
         width: 180px;
         height: 220px;
+        border-radius: 10%;
       }
     }
   }
