@@ -10,8 +10,5 @@ const Container = () => {
     </>
   );
 };
-{
-  /* <img src={require("../assets/img/walidbellili.jpg")} alt="" /> */
-}
 
 export default Container;
