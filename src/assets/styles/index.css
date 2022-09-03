@@ -86,6 +86,7 @@ header nav ul {
   -o-object-fit: contain;
      object-fit: contain;
   height: 180px;
+  width: 250px;
   border-radius: 4%;
   margin: 3%;
 }
@@ -123,6 +124,16 @@ header nav ul {
 .third-container .contact .link ul {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  width: 89%;
+}
+.third-container .contact .link a {
+  margin-right: 35px;
+}
+.third-container .contact .link a:visited {
+  color: white;
 }
 .third-container .contact .link img {
   width: 180px;

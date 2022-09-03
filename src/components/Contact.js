@@ -6,7 +6,7 @@ const Contact = () => {
         <ul>
           <a href="https://github.com/WalidBellili">GITHUB</a>
           <a href="https://www.linkedin.com/in/walidbellili/">LINKEDIN</a>
-          <li>walid.07@hotmail.fr</li>
+          <a href="mailto: walid.07@hotmail.com">Ecrivez-moi</a>
         </ul>
         <img src={require("../assets/img/walidbellili.jpg")} alt="" />
       </article>
