@@ -80,6 +80,7 @@ header nav ul li {
   width: 480px;
   height: 250px;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .got {
@@ -90,4 +91,25 @@ header nav ul li {
 .catalogue {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.contact {
+  background: #000;
+  color: whitesmoke;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact .contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: whitesmoke;
+  color: #000;
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
 }/*# sourceMappingURL=index.css.map */

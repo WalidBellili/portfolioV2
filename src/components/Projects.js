@@ -1,4 +1,5 @@
 import CatalogueContainer from "./CatalogueContainer";
+import Contact from "./Contact";
 import GotContainer from "./GotContainer";
 import MooviceContainer from "./MooviceContainer";
 import PokemonContainer from "./PokemonContainer";
@@ -12,6 +13,7 @@ const Projects = () => {
         <GotContainer />
         <PokemonContainer />
         <CatalogueContainer />
+        <Contact />
       </div>
     </section>
   );

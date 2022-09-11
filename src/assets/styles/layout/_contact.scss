@@ -1,0 +1,21 @@
+.contact {
+  background: #000;
+  color: whitesmoke;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    color: #000;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+  }
+}
