@@ -1,0 +1,25 @@
+.mooviceContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(242, 242, 242);
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 90%;
+  .txtMoovice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+  }
+  .imgMoovice {
+    width: 50%;
+    img {
+      width: 480px;
+      height: 250px;
+      cursor: pointer;
+    }
+  }
+}
