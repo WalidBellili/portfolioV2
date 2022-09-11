@@ -2,7 +2,7 @@ import RedirectionCardNetlifyMoovice from "./RedirectionCardNetlifyMoovice";
 
 const MooviceContainer = () => {
   return (
-    <>
+    <section className="responsive">
       <article className="mooviceContainer">
         <h3>Moovice</h3>
 
@@ -11,7 +11,7 @@ const MooviceContainer = () => {
         </div>
         <RedirectionCardNetlifyMoovice />
       </article>
-    </>
+    </section>
   );
 };
 

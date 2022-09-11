@@ -1,9 +1,6 @@
 * {
   list-style: none;
 }
-* a:link {
-  text-decoration: none;
-}
 
 body {
   height: 100vh;
@@ -11,6 +8,13 @@ body {
   background: whitesmoke;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 22px;
+}
+body a:link {
+  text-decoration: none;
+  color: wheat;
+}
+body a:visited {
+  color: wheat;
 }
 
 header {
@@ -70,6 +74,16 @@ header nav ul li {
 .title ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+@media screen and (max-width: 1061px) {
+  .title {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 479px) {
+  .title {
+    width: 45%;
+  }
+}
 .title .projectsContainer {
   text-align: center;
   display: flex;
@@ -81,6 +95,11 @@ header nav ul li {
   height: 400px;
   overflow-x: scroll;
 }
+@media screen and (max-width: 1061px) {
+  .title .projectsContainer {
+    overflow-y: scroll;
+  }
+}
 
 .mooviceContainer {
   border: 2px solid;
@@ -89,6 +108,12 @@ header nav ul li {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 1061px) {
+  .mooviceContainer {
+    width: 400px;
+    margin-left: 20%;
+  }
+}
 .mooviceContainer .imgMoovice {
   width: 100%;
 }
@@ -96,6 +121,24 @@ header nav ul li {
   width: 90%;
   height: 250px;
   border-radius: 20px;
+}
+@media screen and (max-width: 600px) {
+  .mooviceContainer .imgMoovice img {
+    width: 170px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 545px) {
+  .mooviceContainer .imgMoovice img {
+    width: 120px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .mooviceContainer .imgMoovice img {
+    width: 90px;
+    height: 50px;
+  }
 }
 
 .redirection {
@@ -131,4 +174,11 @@ header nav ul li {
 .contact .contact-container img {
   width: 300px;
   border-radius: 400px;
+}
+.contact a:link {
+  text-decoration: none;
+  color: black;
+}
+.contact a:visited {
+  color: black;
 }/*# sourceMappingURL=index.css.map */

@@ -1,8 +1,5 @@
 * {
   list-style: none;
-  a:link {
-    text-decoration: none;
-  }
 }
 
 body {
@@ -29,4 +26,12 @@ body {
   //     }
   //   }
   // }
+  a:link {
+    text-decoration: none;
+
+    color: wheat;
+  }
+  a:visited {
+    color: wheat;
+  }
 }
