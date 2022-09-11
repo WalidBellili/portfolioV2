@@ -1,21 +1,20 @@
 import CatalogueContainer from "./CatalogueContainer";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 import GotContainer from "./GotContainer";
 import MooviceContainer from "./MooviceContainer";
 import PokemonContainer from "./PokemonContainer";
 
 const Projects = () => {
   return (
-    <section className="projectsContainer">
-      <div className="articlesContainer">
-        <h2>Mes projets</h2>
+    <main className="title">
+      <h2>Mes projets</h2>
+      <section className="projectsContainer">
         <MooviceContainer />
         <GotContainer />
         <PokemonContainer />
         <CatalogueContainer />
-        <Contact />
-      </div>
-    </section>
+      </section>
+    </main>
   );
 };
 

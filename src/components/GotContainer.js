@@ -1,17 +1,15 @@
+import RedirectionCardNetlifyGot from "./RedirectionCardNetlifyGot";
+
 const GotContainer = () => {
   return (
     <>
-      <h3>Game of throne</h3>
-      <article className="mooviceContainer got">
-        <div className="txtMoovice">
-          <p>ce projet : kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
-          <p>ce projet : kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
-          <p>ce projet : kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
-          <p>ce projet : kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
-        </div>
+      <article className="mooviceContainer">
+        <h3>Game of throne</h3>
+
         <div className="imgMoovice">
           <img src={require("../assets/img/newGot.jpg")} alt="" />
         </div>
+        <RedirectionCardNetlifyGot />
       </article>
     </>
   );
