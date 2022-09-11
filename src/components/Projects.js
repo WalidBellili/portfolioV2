@@ -10,6 +10,7 @@ const Projects = () => {
       <h2>Mes projets</h2>
       <section className="projectsContainer">
         <MooviceContainer />
+
         <GotContainer />
         <PokemonContainer />
         <CatalogueContainer />

@@ -50,6 +50,25 @@ header nav ul li {
 
 .title {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.title ::-webkit-scrollbar {
+  width: 10px;
+}
+.title ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.title ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.title ::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 .title .projectsContainer {
   text-align: center;
@@ -58,6 +77,9 @@ header nav ul li {
   justify-content: center;
   flex-wrap: wrap;
   gap: 5%;
+  width: 80%;
+  height: 400px;
+  overflow-x: scroll;
 }
 
 .mooviceContainer {
