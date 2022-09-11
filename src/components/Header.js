@@ -4,9 +4,12 @@ const Header = () => {
       <nav>
         <h1>Walid Bellili</h1>
         <ul>
-          <li>efefe</li>
-          <li>efefe</li>
-          <li>efefe</li>
+          <a href="https://github.com/WalidBellili">
+            <li>GITHUB</li>
+          </a>
+          <a href="https://www.linkedin.com/in/walidbellili/">
+            <li>LINKEDIN</li>
+          </a>
         </ul>
       </nav>
     </header>
