@@ -1,27 +1,28 @@
 header {
-  height: 70px;
+  background: #000;
+  display: flex;
+  color: wheat;
   width: 100%;
-  background: rgba(36, 35, 66, 0.282);
+  height: 70px;
   border-bottom: 2px solid grey;
-  color: whitesmoke;
 
   nav {
-    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-    h2 {
-      margin-left: 9%;
-    }
-
     ul {
-      width: 40%;
+      width: 50%;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-right: 5%;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
     }
   }
 }
