@@ -7,15 +7,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 
   .contact-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background: whitesmoke;
     color: #000;
     width: 80%;
     height: 80%;
     border-radius: 20px;
+
+    img {
+      width: 300px;
+      border-radius: 400px;
+    }
   }
 }
