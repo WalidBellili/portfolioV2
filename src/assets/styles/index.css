@@ -51,7 +51,7 @@ body a::after {
   left: 0;
 }
 body a:hover {
-  transform: scale(1.4);
+  transform: scale(1.04);
   color: rgb(234, 234, 234);
 }
 body a:hover::after {
@@ -73,4 +73,67 @@ body a:hover::after {
   100% {
     transform: scaleX(1);
   }
+}
+body img {
+  height: 390px;
+  width: 100vw;
+  max-width: 390px;
+  margin: 0 auto;
+  filter: grayscale(100%);
+  transition: 1.5s;
+}
+body img:hover {
+  filter: grayscale(10%);
+}
+body .line {
+  height: 2px;
+  width: 70%;
+  margin: 0 auto;
+  background: #000;
+  transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
+  transform-origin: left;
+  transition-delay: 0.65s;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+  margin: 2vw 2vw;
+}
+header .links {
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: calc(2rem + 8vw);
+  margin-top: 70px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: whitesmoke;
+}
+header h2 {
+  font-size: calc(1rem + 6.5vw);
+  margin: 18px 0px;
+  text-align: left;
+}
+header .scroll-wrap {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3.5vw;
+  color: rgb(217, 217, 217);
+  font-size: calc(0.8rem + 0.5vw);
+}
+
+.about {
+  margin: 400px 0 250px;
+}
+.about .img1 {
+  background-size: contain;
+  display: flex;
+  border-radius: 20px;
+}
+.about .h2-wrap {
+  mix-blend-mode: exclusion;
+  margin: -220px 0 200px;
 }/*# sourceMappingURL=index.css.map */

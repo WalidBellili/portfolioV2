@@ -48,7 +48,7 @@ body {
     // transform-origin: left;
   }
   a:hover {
-    transform: scale(1.4);
+    transform: scale(1.04);
     color: rgb(234, 234, 234);
   }
   a:hover::after {
@@ -61,5 +61,27 @@ body {
     100% {
       transform: scaleX(1);
     }
+  }
+
+  img {
+    height: 390px;
+    width: 100vw;
+    max-width: 390px;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transition: 1.5s;
+  }
+  img:hover {
+    filter: grayscale(10%);
+  }
+
+  .line {
+    height: 2px;
+    width: 70%;
+    margin: 0 auto;
+    background: #000;
+    transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
+    transform-origin: left;
+    transition-delay: 0.65s;
   }
 }
