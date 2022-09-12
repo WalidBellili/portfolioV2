@@ -1,18 +1,65 @@
 * {
-  list-style: none;
+  margin: 0;
+  padding: 0;
+  *::selection {
+    background: #000;
+    color: whitesmoke;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  height: 100vh;
-  width: 100%;
-  background: whitesmoke;
+  background: #000;
+  color: whitesmoke;
+  transition: 0.5s ease-in-out;
 
-  a:link {
-    text-decoration: none;
-
-    color: wheat;
+  h2 {
+    font-size: calc(3rem + 5vw);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
   }
+  .title {
+    font-size: calc(1.5rem + 5vw);
+  }
+  span {
+    display: inline-block;
+  }
+  a,
   a:visited {
-    color: wheat;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.1s linear;
+    font-size: calc(0.8rem + 0.8vw);
+  }
+  a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: whitesmoke;
+    bottom: -4px;
+    left: 0;
+    // transform-origin: left;
+  }
+  a:hover {
+    transform: scale(1.4);
+    color: rgb(234, 234, 234);
+  }
+  a:hover::after {
+    animation: animationLinks 1.3s infinite ease-in-out;
+  }
+  @keyframes animationLinks {
+    50% {
+      transform: scaleX(0.2);
+    }
+    100% {
+      transform: scaleX(1);
+    }
   }
 }

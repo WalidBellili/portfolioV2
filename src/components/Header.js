@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <header>
       <article className="links">
-        <a href="#projet">projets</a>
+        <a href="#projets">projets</a>
         <a href="mailto:walid.07@hotmail.fr">contact</a>
       </article>
       <article className="wrap">

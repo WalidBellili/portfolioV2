@@ -2,6 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
+    <>
+    
     <section className="about">
       <article className="img1-wrap">
         <div className="img img1"></div>
@@ -11,6 +13,10 @@ const About = () => {
       </div>
       <p>ezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
     </section>
+    <div className="line-wrap">
+        <div className="line"></div>
+    </div>
+    </>
   );
 };
 
