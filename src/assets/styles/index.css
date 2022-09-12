@@ -180,11 +180,34 @@ header .scroll-wrap {
   width: 60vw;
   max-width: 600px;
 }
+.projets .projects-container .projet:hover img {
+  filter: brightness(70%);
+}
 .projets .projects-container #p2 {
   margin: 0 6vw 0 auto;
 }
 .projets .projects-container #p3 {
   margin: 8vw;
+}
+.projets .project-infos {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50px, -50%);
+  margin-left: 11vw;
+  transition: 0.4s ease-out;
+  opacity: 0;
+}
+.projets .project-infos:hover {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+.projets .project-infos a {
+  font-size: calc(1rem + 3vw);
+}
+.projets .project-infos p {
+  font-size: 2rem;
+  margin-top: 1.5vw;
+  color: whitesmoke;
 }
 .projets img {
   transition: 0.4s ease-out;
