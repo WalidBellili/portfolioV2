@@ -16,7 +16,7 @@ const About = () => {
         <div className="h2-wrap">
           <h2>A propos</h2>
         </div>
-        <p>ezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+        <p>ddddddddddddzzzzzzzzzzzzzzzzzzzzzzzz</p>
       </section>
       <div className="line-wrap">
         <div className="line"></div>

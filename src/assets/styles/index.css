@@ -136,4 +136,57 @@ header .scroll-wrap {
 .about .h2-wrap {
   mix-blend-mode: exclusion;
   margin: -220px 0 200px;
+}
+.about p {
+  width: 70%;
+  min-width: 280px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: calc(7px + 4.5vw);
+  font-size: calc(1rem + 1vw);
+  letter-spacing: 1px;
+}
+
+.competences {
+  margin: 200px 0 250px;
+}
+.competences h2 {
+  margin-bottom: 250px;
+}
+.competences .wrap {
+  margin: 30px 0;
+}
+.competences .appear {
+  text-align: center;
+}
+.competences p {
+  font-size: calc(1rem + 6vw);
+  font-weight: bold;
+  letter-spacing: 4px;
+  background: #000;
+  color: whitesmoke;
+  display: inline-block;
+  padding: 0 12px 12px;
+}
+
+.projets {
+  margin: 200px 0;
+}
+.projets .projects-container {
+  margin-top: 100px;
+}
+.projets .projects-container .projet {
+  position: relative;
+  width: 60vw;
+  max-width: 600px;
+}
+.projets .projects-container #p2 {
+  margin: 0 6vw 0 auto;
+}
+.projets .projects-container #p3 {
+  margin: 8vw;
+}
+.projets img {
+  transition: 0.4s ease-out;
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */

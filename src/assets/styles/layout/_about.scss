@@ -10,4 +10,13 @@
     mix-blend-mode: exclusion;
     margin: -220px 0 200px;
   }
+  p {
+    width: 70%;
+    min-width: 280px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: calc(7px + 4.5vw);
+    font-size: calc(1rem + 1vw);
+    letter-spacing: 1px;
+  }
 }

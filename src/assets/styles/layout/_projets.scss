@@ -1,0 +1,23 @@
+.projets {
+  margin: 200px 0;
+  //   background: red;
+  .projects-container {
+    margin-top: 100px;
+
+    .projet {
+      position: relative;
+      width: 60vw;
+      max-width: 600px;
+    }
+    #p2 {
+      margin: 0 6vw 0 auto;
+    }
+    #p3 {
+      margin: 8vw;
+    }
+  }
+  img {
+    transition: 0.4s ease-out;
+    width: 100%;
+  }
+}
