@@ -149,6 +149,10 @@ header h2 {
   color: black;
   background: whitesmoke;
 }
+.projets h2 {
+  font-size: calc(1rem + 6.5vw);
+  text-align: center;
+}
 .projets .projects-container {
   margin-top: 100px;
 }

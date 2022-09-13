@@ -9,21 +9,23 @@ const Projet = () => {
           <div className="projet" id="p1">
             <img src={require("../assets/img/newmoovice.jpg")} alt="Moovice" />
             <div className="project-infos">
-              <a href="">Moovice</a>
+              <a href="https://aesthetic-mandazi-c51276.netlify.app">Moovice</a>
               <p>En cours</p>
             </div>
           </div>
           <div className="projet" id="p2">
             <img src={require("../assets/img/newmoovice.jpg")} alt="Moovice" />
             <div className="project-infos">
-              <a href="">Got</a>
+              <a href="https://illustrious-cascaron-656aa5.netlify.app">Got</a>
               <p>En cours</p>
             </div>
           </div>
           <div className="projet" id="p3">
             <img src={require("../assets/img/newmoovice.jpg")} alt="Moovice" />
             <div className="project-infos">
-              <a href="">Pokemon</a>
+              <a href="https://spontaneous-concha-d8a90c.netlify.app">
+                Pokemon
+              </a>
               <p>En cours</p>
             </div>
           </div>

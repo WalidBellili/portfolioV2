@@ -2,7 +2,11 @@
   margin: 200px 0;
   color: black;
   background: whitesmoke;
+  h2 {
+    font-size: calc(1rem + 6.5vw);
 
+    text-align: center;
+  }
   .projects-container {
     margin-top: 100px;
 
