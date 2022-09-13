@@ -1,0 +1,54 @@
+.projets {
+  margin: 200px 0;
+  color: black;
+  background: whitesmoke;
+
+  .projects-container {
+    margin-top: 100px;
+
+    .projet {
+      position: relative;
+      width: 60vw;
+      max-width: 600px;
+      margin: 50px 5vw;
+      &:hover {
+        img {
+          filter: brightness(70%);
+        }
+      }
+    }
+
+    #p2 {
+      margin: 0 6vw 0 auto;
+    }
+    #p3 {
+      margin: 8vw;
+    }
+  }
+  .project-infos {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50px, -50%);
+    margin-left: 8vw;
+    transition: 0.4s ease-out;
+    opacity: 0;
+    &:hover {
+      opacity: 1;
+      transform: translate(0, -50%);
+    }
+
+    a {
+      font-size: calc(1rem + 3vw);
+    }
+    p {
+      font-size: 2rem;
+      margin-top: 1.5vw;
+      color: whitesmoke;
+    }
+  }
+
+  img {
+    transition: 0.4s ease-out;
+    width: 100%;
+  }
+}

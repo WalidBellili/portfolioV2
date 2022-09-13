@@ -37,4 +37,13 @@ body {
       transform: scaleX(1);
     }
   }
+  .line {
+    height: 2px;
+    width: 70%;
+    margin: 0 auto;
+    background: #000;
+    transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
+    transform-origin: left;
+    transition-delay: 0.65s;
+  }
 }

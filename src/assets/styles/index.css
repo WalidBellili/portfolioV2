@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   height: 100vh;
   width: 100%;
@@ -44,6 +45,15 @@ body a:hover::after {
   100% {
     transform: scaleX(1);
   }
+}
+body .line {
+  height: 2px;
+  width: 70%;
+  margin: 0 auto;
+  background: #000;
+  transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
+  transform-origin: left;
+  transition-delay: 0.65s;
 }
 
 header {
@@ -132,4 +142,66 @@ header h2 {
   line-height: calc(7px + 4.5vw);
   font-size: calc(1rem + 1vw);
   letter-spacing: 1px;
+}
+
+.projets {
+  margin: 200px 0;
+  color: black;
+  background: whitesmoke;
+}
+.projets .projects-container {
+  margin-top: 100px;
+}
+.projets .projects-container .projet {
+  position: relative;
+  width: 60vw;
+  max-width: 600px;
+  margin: 50px 5vw;
+}
+.projets .projects-container .projet:hover img {
+  filter: brightness(70%);
+}
+.projets .projects-container #p2 {
+  margin: 0 6vw 0 auto;
+}
+.projets .projects-container #p3 {
+  margin: 8vw;
+}
+.projets .project-infos {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50px, -50%);
+  margin-left: 8vw;
+  transition: 0.4s ease-out;
+  opacity: 0;
+}
+.projets .project-infos:hover {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+.projets .project-infos a {
+  font-size: calc(1rem + 3vw);
+}
+.projets .project-infos p {
+  font-size: 2rem;
+  margin-top: 1.5vw;
+  color: whitesmoke;
+}
+.projets img {
+  transition: 0.4s ease-out;
+  width: 100%;
+}
+
+footer {
+  margin: 150px à 120px;
+}
+footer p {
+  font-size: calc(1rem + 2vw);
+  margin: 25px 0;
+  text-align: center;
+}
+footer a {
+  font-weight: bold;
+  color: black;
+  font-size: calc(1rem + 2vw);
 }/*# sourceMappingURL=index.css.map */
