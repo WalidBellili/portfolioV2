@@ -1,43 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-* *::-moz-selection {
-  background: #000;
-  color: whitesmoke;
-}
-* *::selection {
-  background: #000;
-  color: whitesmoke;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  background: #000;
-  color: whitesmoke;
-  transition: 0.5s ease-in-out;
-}
-body h2 {
-  font-size: calc(3rem + 5vw);
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: 3px;
-}
-body .title {
-  font-size: calc(1.5rem + 5vw);
-}
-body span {
-  display: inline-block;
+  height: 100vh;
+  width: 100%;
+  background: whitesmoke;
 }
 body a,
 body a:visited {
   cursor: pointer;
   position: relative;
   text-decoration: none;
-  color: whitesmoke;
+  color: black;
   transition: 0.1s linear;
   font-size: calc(0.8rem + 0.8vw);
 }
@@ -46,7 +17,7 @@ body a::after {
   position: absolute;
   width: 100%;
   height: 1px;
-  background: whitesmoke;
+  background: black;
   bottom: -4px;
   left: 0;
 }
@@ -74,34 +45,13 @@ body a:hover::after {
     transform: scaleX(1);
   }
 }
-body img {
-  height: 390px;
-  width: 100vw;
-  max-width: 390px;
-  margin: 0 auto;
-  filter: grayscale(100%);
-  transition: 1.5s;
-}
-body img:hover {
-  filter: grayscale(10%);
-}
-body .line {
-  height: 2px;
-  width: 70%;
-  margin: 0 auto;
-  background: #000;
-  transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
-  transform-origin: left;
-  transition-delay: 0.65s;
-}
 
 header {
-  height: 100vh;
-  position: relative;
   margin: 2vw 2vw;
 }
-header .links {
+header nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 header h1 {
@@ -109,24 +59,18 @@ header h1 {
   margin-top: 70px;
   font-weight: bold;
   letter-spacing: 5px;
-  color: whitesmoke;
 }
 header h2 {
   font-size: calc(1rem + 6.5vw);
   margin: 18px 0px;
   text-align: left;
 }
-header .scroll-wrap {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 3.5vw;
-  color: rgb(217, 217, 217);
-  font-size: calc(0.8rem + 0.5vw);
-}
 
 .about {
   margin: 400px 0 250px;
+}
+.about .txt {
+  margin-top: 10%;
 }
 .about .img1 {
   background-size: contain;
@@ -144,72 +88,48 @@ header .scroll-wrap {
   margin: 0 auto;
   line-height: calc(7px + 4.5vw);
   font-size: calc(1rem + 1vw);
-  letter-spacing: 1px;
+  letter-spacing: 1.3px;
 }
-
-.competences {
-  margin: 200px 0 250px;
-}
-.competences h2 {
-  margin-bottom: 250px;
-}
-.competences .wrap {
-  margin: 30px 0;
-}
-.competences .appear {
+.about h2 {
+  font-size: calc(1rem + 6.5vw);
   text-align: center;
 }
-.competences p {
-  font-size: calc(1rem + 6vw);
-  font-weight: bold;
-  letter-spacing: 4px;
-  background: #000;
-  color: whitesmoke;
-  display: inline-block;
-  padding: 0 12px 12px;
+.about img {
+  height: 390px;
+  width: 100vw;
+  max-width: 390px;
+  margin: 0 auto;
+  filter: grayscale(100%);
+  transition: 0.7s;
+}
+.about img:hover {
+  filter: grayscale(2%);
 }
 
-.projets {
-  margin: 200px 0;
-}
-.projets .projects-container {
-  margin-top: 100px;
-}
-.projets .projects-container .projet {
-  position: relative;
-  width: 60vw;
-  max-width: 600px;
-}
-.projets .projects-container .projet:hover img {
-  filter: brightness(70%);
-}
-.projets .projects-container #p2 {
-  margin: 0 6vw 0 auto;
-}
-.projets .projects-container #p3 {
-  margin: 8vw;
-}
-.projets .project-infos {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50px, -50%);
-  margin-left: 11vw;
-  transition: 0.4s ease-out;
-  opacity: 0;
-}
-.projets .project-infos:hover {
-  opacity: 1;
-  transform: translate(0, -50%);
-}
-.projets .project-infos a {
-  font-size: calc(1rem + 3vw);
-}
-.projets .project-infos p {
-  font-size: 2rem;
-  margin-top: 1.5vw;
+.skills-container {
+  background: #000;
   color: whitesmoke;
+  height: 100vh;
 }
-.projets img {
-  transition: 0.4s ease-out;
-  width: 100%;
+.skills-container h2 {
+  font-size: calc(1rem + 6.5vw);
+  text-align: center;
+}
+.skills-container .technos {
+  height: 90%;
+}
+.skills-container .technos article:nth-child(even) {
+  margin-left: 20vw;
+}
+.skills-container .technos article:nth-child(odd) {
+  margin-right: 40vw;
+}
+.skills-container .technos p {
+  width: 70%;
+  min-width: 280px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: calc(7px + 4.5vw);
+  font-size: calc(1rem + 1vw);
+  letter-spacing: 1px;
 }/*# sourceMappingURL=index.css.map */

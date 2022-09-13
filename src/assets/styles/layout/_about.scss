@@ -1,6 +1,8 @@
 .about {
   margin: 400px 0 250px;
-
+  .txt {
+    margin-top: 10%;
+  }
   .img1 {
     background-size: contain;
     display: flex;
@@ -17,6 +19,22 @@
     margin: 0 auto;
     line-height: calc(7px + 4.5vw);
     font-size: calc(1rem + 1vw);
-    letter-spacing: 1px;
+    letter-spacing: 1.3px;
+  }
+  h2 {
+    font-size: calc(1rem + 6.5vw);
+
+    text-align: center;
+  }
+  img {
+    height: 390px;
+    width: 100vw;
+    max-width: 390px;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transition: 0.7s;
+  }
+  img:hover {
+    filter: grayscale(2%);
   }
 }

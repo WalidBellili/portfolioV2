@@ -1,31 +1,19 @@
 header {
-  height: 100vh;
-  position: relative;
   margin: 2vw 2vw;
-
-  .links {
+  nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
-
   h1 {
     font-size: calc(2rem + 8vw);
     margin-top: 70px;
     font-weight: bold;
     letter-spacing: 5px;
-    color: whitesmoke;
   }
   h2 {
     font-size: calc(1rem + 6.5vw);
     margin: 18px 0px;
     text-align: left;
-  }
-  .scroll-wrap {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 3.5vw;
-    color: rgb(217, 217, 217);
-    font-size: calc(0.8rem + 0.5vw);
   }
 }

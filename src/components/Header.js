@@ -1,28 +1,21 @@
 const Header = () => {
   return (
     <header>
-      <article className="links">
+      <nav>
         <a href="#projets">projets</a>
         <a href="mailto:walid.07@hotmail.fr">contact</a>
-      </article>
-      <article className="wrap">
-        <div className="appear" id="h1-wrap">
+      </nav>
+      <section>
+        <article>
           <h1>Walid Bellili</h1>
-        </div>
-      </article>
-      <article className="wrap">
-        <div className="appear" id="firstH2">
-          <h2>Développeur</h2>
-        </div>
-      </article>
-      <article className="wrap">
-        <div className="appear" id="secondH2">
-          <h2>Front-End</h2>
-        </div>
-      </article>
-      <div className="scroll-wrap">
-        <p>scroll</p>
-      </div>
+        </article>
+        <article>
+          <h2>Développeur Web</h2>
+        </article>
+        <article>
+          <h2>fullstack</h2>
+        </article>
+      </section>
     </header>
   );
 };
