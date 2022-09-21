@@ -14,14 +14,17 @@ const Projet = () => {
             </div>
           </div>
           <div className="projet" id="p2">
-            <img src={require("../assets/img/newmoovice.jpg")} alt="Moovice" />
+            <img src={require("../assets/img/newGot.jpg")} alt="Moovice" />
             <div className="project-infos">
               <a href="https://illustrious-cascaron-656aa5.netlify.app">Got</a>
               <p>En cours</p>
             </div>
           </div>
           <div className="projet" id="p3">
-            <img src={require("../assets/img/newmoovice.jpg")} alt="Moovice" />
+            <img
+              src={require("../assets/img/ScreenCatalogue.jpg")}
+              alt="Moovice"
+            />
             <div className="project-infos">
               <a href="https://spontaneous-concha-d8a90c.netlify.app">
                 Pokemon
