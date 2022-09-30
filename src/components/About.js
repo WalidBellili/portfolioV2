@@ -13,7 +13,7 @@ const About = () => {
       </article>
       <article className="txt">
         <p>
-          Ayant travaillé 10 année dans les brasseries Parisiennes, j'ai décidé
+          Ayant travaillé 10 années dans les brasseries Parisiennes, j'ai décidé
           de donner un second souffle à ma vie professionnelle.
         </p>
         <p>
