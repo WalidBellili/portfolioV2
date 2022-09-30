@@ -7,28 +7,37 @@ const Projet = () => {
         <h2 className="title">Projets</h2>
         <article className="projects-container">
           <div className="projet" id="p1">
-            <img src={require("../assets/img/newmoovice.jpg")} alt="Moovice" />
+            <img src={require("../assets/img/moovice.jpg")} alt="Moovice" />
             <div className="project-infos">
-              <a href="https://aesthetic-mandazi-c51276.netlify.app">Moovice</a>
+              <a href="https://frabjous-liger-669b85.netlify.app/">Moovice</a>
               <p>En cours</p>
             </div>
           </div>
           <div className="projet" id="p2">
+            <img src={require("../assets/img/cocktails.jpg")} alt="Moovice" />
+            <div className="project-infos">
+              <a href="https://helpful-hamster-4d739f.netlify.app/">TodoList</a>
+              <p>En cours</p>
+            </div>
+          </div>
+          <div className="projet" id="p3">
             <img src={require("../assets/img/newGot.jpg")} alt="Moovice" />
             <div className="project-infos">
               <a href="https://illustrious-cascaron-656aa5.netlify.app">Got</a>
               <p>En cours</p>
             </div>
           </div>
-          <div className="projet" id="p3">
-            <img
-              src={require("../assets/img/ScreenCatalogue.jpg")}
-              alt="Moovice"
-            />
+          <div className="projet" id="p2">
+            <img src={require("../assets/img/Shifumi.jpg")} alt="Moovice" />
             <div className="project-infos">
-              <a href="https://spontaneous-concha-d8a90c.netlify.app">
-                Pokemon
-              </a>
+              <a href="https://curious-gumption-aa625a.netlify.app/">Shifumi</a>
+              <p>En cours</p>
+            </div>
+          </div>
+          <div className="projet" id="p3">
+            <img src={require("../assets/img/Todo.jpg")} alt="Moovice" />
+            <div className="project-infos">
+              <a href="https://beamish-babka-3f3716.netlify.app/">TodoList</a>
               <p>En cours</p>
             </div>
           </div>

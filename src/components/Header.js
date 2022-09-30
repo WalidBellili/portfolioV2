@@ -2,8 +2,8 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <a href="#projets">projets</a>
-        <a href="mailto:walid.07@hotmail.fr">contact</a>
+        <a href="#projets">Projets</a>
+        <a href="mailto:walid.07@hotmail.fr">Contact</a>
       </nav>
       <section>
         <article>
