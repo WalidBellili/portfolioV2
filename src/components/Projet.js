@@ -9,14 +9,18 @@ const Projet = () => {
           <div className="projet" id="p1">
             <img src={require("../assets/img/moovice.jpg")} alt="Moovice" />
             <div className="project-infos">
-              <a href="https://frabjous-liger-669b85.netlify.app/">Moovice</a>
+              <a href="https://aesthetic-mandazi-c51276.netlify.app/">
+                Moovice
+              </a>
               <p>En cours</p>
             </div>
           </div>
           <div className="projet" id="p2">
             <img src={require("../assets/img/cocktails.jpg")} alt="Moovice" />
             <div className="project-infos">
-              <a href="https://helpful-hamster-4d739f.netlify.app/">TodoList</a>
+              <a href="https://helpful-hamster-4d739f.netlify.app/">
+                Cocktail API
+              </a>
               <p>En cours</p>
             </div>
           </div>
@@ -30,9 +34,7 @@ const Projet = () => {
           <div className="projet" id="p2">
             <img src={require("../assets/img/heros.jpg")} alt="heroes" />
             <div className="project-infos">
-              <a href="https://playful-nougat-fa6390.netlify.app/">
-                Hero FULLSTACK
-              </a>
+              <a href="https://playful-nougat-fa6390.netlify.app/">FULLSTACK</a>
               <p>En cours</p>
             </div>
           </div>
